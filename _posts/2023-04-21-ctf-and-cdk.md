@@ -3,7 +3,7 @@ layout: post
 read_time: true
 show_date: true
 title: "CTFs and Gitlab within CDK"
-date: 2023-04-22
+date: 2023-04-21
 img: posts/20230422/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg
 tags: [AWS CDK,Python,DevOps, gitlab]
 category: AWS CDK
