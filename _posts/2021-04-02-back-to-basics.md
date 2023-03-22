@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "So? What is CDK?"
 date: 2023-03-22
-img: posts/20210402/post7-header.webp
+img: posts/20210402/sai-kiran-anagani-Tjbk79TARiE-unsplash.jpg
 tags: [AWS CDK,Python,DevOps]
 category: AWS CDK
 author: Joshua Martin
