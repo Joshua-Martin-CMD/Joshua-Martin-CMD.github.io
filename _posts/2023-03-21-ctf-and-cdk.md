@@ -4,7 +4,7 @@ read_time: true
 show_date: true
 title: "CTFs and Gitlab within CDK"
 date: 2023-03-21
-img: posts/20230422/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg
+img: posts/20230322/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg
 tags: [AWS CDK,Python,DevOps, gitlab]
 category: AWS CDK
 author: Joshua Martin
@@ -56,13 +56,14 @@ Using Json data we can specify config changes
  ## Diagram
 Everything is in a public zone to allow for access to the internet and to show that this isn’t best practice but some setups look like this and we need to identify how to also improve on this solution.
 
-<center><img src='./assets/img/posts/20230420/CICDoh-Diagram.drawio.png' width="540"></center><br>
+<center><img src='./assets/img/posts/20230322/CICDoh-Diagram.drawio.png' width="540"></center><br>
 
 ## Flag Generation
 Using uuid module we are able to generate flags for `x` amount of teams and capture points 
 
 ```Python
-    from ast import Num
+
+from ast import Num
 import os
 import uuid
 
