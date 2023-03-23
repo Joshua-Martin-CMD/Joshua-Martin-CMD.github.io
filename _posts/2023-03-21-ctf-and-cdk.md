@@ -61,7 +61,7 @@ Everything is in a public zone to allow for access to the internet and to show t
 ## Flag Generation
 Using uuid module we are able to generate flags for `x` amount of teams and capture points 
 
-```Py
+```python
 
 from ast import Num
 import os

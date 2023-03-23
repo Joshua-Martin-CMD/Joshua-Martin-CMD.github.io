@@ -135,6 +135,6 @@ class VpcStack(schemavalidate):
 
 schemavalidate is pulled from the Schema_check.py app as it builds the variables for the VPC stack to use
 
- ## Diagram
+## Diagram
 Diagram below shows once the stack above with the JSON Config looks like once deployed.
 <center><img src='./assets/img/posts/20230323/AWS-CDK-TEMPLATE-VPC.jpg' width="540"></center><br>
