@@ -33,13 +33,13 @@ The Game Master will need to deploy 3 Stacks,
 
 Stack 1 Deploys basic VPC Resources and Some Critical infomation about the Size of the teams and how Many Players
 ```shell
-cdk deploy CTF-CICDoh-Prereqs -c Size=(S,M,L,XL) -c env=(dev,test,sandpit)
+cdk deploy CTF-CICDoh-Prereqs -c Size=(S,M,L,XL) -c env=(dev,stage,prod)
 ```
-Using Json data we can specify config changes 
+Using Json data we can specify config changes  (All Account IDs are not AWS Accounts and for example purpose only)
 ```json   
     "Dev_Account": "1234567890",
-    "Sandpit1" : "1234567890",
-    "Sandpit3" : "1234567890",
+    "Stage_account" : "1234567890",
+    "Prod_account" : "1234567890",
     "ShirtSize" : ["SP","S","M", "L", "XL"],
     "S": {
       "TeamSize" : "1",
