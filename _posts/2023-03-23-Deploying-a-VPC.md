@@ -67,7 +67,7 @@ We are able to validate the CIDR Range also here to make sure there are no overl
 
 Also validating if the IP provided are inncorrect or Internet Routable.
 
-```Python
+```python
   try:
     ip_addr = ipaddress.ip_network(args.ipaddr)
 except ValueError:
@@ -89,7 +89,7 @@ Within the *app.py* we can validate the account IDs for which configration will 
 
 which calls the context method 
 
-```Python
+```python
   app = App()
   stack_env = app.node.try_get_context("environment")
 ```
