@@ -59,7 +59,7 @@ for this example here is a snippet from our vpc_config.json file.
 }
 ```
 
-The above code we are able to use true|false statements to help define what our VPC looks like, in the above example we have removed the VPN Client option, Site to Site configration, and having the use of transit gateways. This will isolate the accounts from eachother. 
+The above code we are able to use true false statements to help define what our VPC looks like, in the above example we have removed the VPN Client option, Site to Site configration, and having the use of transit gateways. This will isolate the accounts from eachother. 
 
 Which in this user case is fine.
 
