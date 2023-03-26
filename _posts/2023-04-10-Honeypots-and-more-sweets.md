@@ -10,11 +10,6 @@ category: DevSecOps
 author: Joshua Martin
 description: "JM5: HoneyPots"
 ---
-If you are starting your CDK path see these great resources
-- [CDK Bootstrapping](https://docs.aws.amazon.com/cdk/v2/guide/bootstrapping.html)
-- [CDK API Refrence](https://docs.aws.amazon.com/cdk/api/v2/python/index.html)
-- [CDK Context](https://docs.aws.amazon.com/cdk/v2/guide/context.html)
-- [CDK EC2 Constructs](https://docs.aws.amazon.com/cdk/api/v2/python/index.html)
   
 # Honey? Pots? and Intrusion Detection ?
 
@@ -42,5 +37,7 @@ This is all used via ubuntu and Open Canary
 You can also achive this with Kali's ARM distro
 
 ### But what about the Cloud ? 
+``build on this``
+As we move more and more workloads into the cloud we now have the best optunity to optimise, transform and bake in Security into the application.
 
-As we move more and more workloads into the cloud we now have the best optunity to optimise and transform 
+Within AWS we can replicate what we use like a honeypot and update great security tooling to uplift security posture and implement tools to greater protect workloads, and find issues to build and update the tools we use, to build great customer experince and protect their data.
